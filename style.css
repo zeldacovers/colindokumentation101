@@ -1,6 +1,9 @@
 *{
     font-family: 'Acme', sans-serif;
 }
+html {
+    background-color: brown;
+}
 #inhalt{
     font-size: 37px;
 }
