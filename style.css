@@ -10,8 +10,11 @@
 header{
     position: fixed;
     background-color: bisque;
-    padding-right: 27px;
+    padding-right: 20px;
     padding-bottom: 100%;
+    padding-left: 10px;
+    border-style: solid;
+    border-color: #1a8b8b;
 }
 main {
     margin-left: 305px;
