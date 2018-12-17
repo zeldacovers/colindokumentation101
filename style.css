@@ -1,3 +1,28 @@
 *{
     font-family: 'Acme', sans-serif;
 }
+#inhalt{
+    font-size: 37px;
+}
+.inhaltsverzeichnis{
+    font-size: 16px;
+}
+header{
+    position: fixed;
+    background-color: bisque;
+    padding-right: 30px
+}
+main {
+    margin-left: 305px;
+    background-color: rgba(0,0,0,0.78);
+    color: seashell;
+}
+h1{
+    font-size: 20px;
+}
+p{
+    font-size: 13px;
+}
+.tools{
+    font-size: 13px;
+}
