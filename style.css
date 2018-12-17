@@ -1,5 +1,5 @@
 *{
-    font-family: 'Alef', sans-serif;
+    font-family: 'Acme', sans-serif;
 }
 #inhalt{
     font-size: 37px;
@@ -10,7 +10,8 @@
 header{
     position: fixed;
     background-color: bisque;
-    padding-right: 27px
+    padding-right: 27px;
+    padding-bottom: 100%;
 }
 main {
     margin-left: 305px;
