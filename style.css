@@ -6,6 +6,7 @@ html {
 }
 #inhalt{
     font-size: 37px;
+    text-decoration-line: underline;
 }
 .inhaltsverzeichnis{
     font-size: 16px;
