@@ -136,16 +136,16 @@
         <p>Fomrulare werden für Eingabefelder, Checkboxen und Mehrfachauswahlslisten. Man umgibt alle Fomrulare mit
             dem &lt;form&gt;-Tag. Ein Eingabefeld macht man mit dem Input-Tag, dort kann man auch noch die
             maxlenght (maximale Länge) angeben. Mit dem <i>type="password"</i> kann man die Eingabe mit Punkten
-            überdecken, wie man das halt schon kann aus anderen Webseiten, wo es ein Login-Fenster hat. Hier ein
+            überdecken, wie man das halt schon kennt aus anderen Webseiten, wo es ein Login-Fenster hat. Hier ein
             Beispiel: <input type="password" size="15" maxlength="15" name="passwort"> Mit einer Textarea kann
             man einen ganzen
             Bereich einfügen, in welchen man dann schreiben kann. Mit Javascript könnte man dann diese Inhalte in
             eine Datenbank eintragen lassen. Man kann auch mit dem input type="radio" eine auswahl erstellen, bei
             denen man nur ein Punkt auswählen kann. Mit dem Typ checkbox kann man eine Liste erstellen, wo man
             mehrere Items auswählen kann. Mit &lt;select&gt; kann man eine Selektionsliste erstellen: <select name="geräte">
-                <option value="html">HTML</option>
-                <option value="css">CSS</option>
-                <option value="java">Javascript</option>
+                <option value="html">ich</option>
+                <option value="css">bin</option>
+                <option value="java">colin</option>
             </select> Mit input type="submit" kann man einen Button erstellen, welcher nur dazu dient, die Inhalte
             einzusenden. <input type="submit" name="senden" value="Absenden"> Man kann aber auch einen Knopf
             einfügen, dies kann man erreichen durch das Element <button>&lt;Button&gt;</button> Mit
@@ -158,6 +158,28 @@
             grauhinterlegeten Text einfügen, genau wie beim Suchfeld.
 
         </p>
+    </div>
+    <div class="flash">
+        <h2>Flash Video und Audio</h2>
+        <p>Mit Flash kann man Animationen erstellen, dies wurde anfangs der 90er Jahre gemacht, heute macht man es
+            nicht mehr so häufig. Eine Flash-Animation fügt man mit Javascrip ein. Ein Video fügt man mit dem
+            &lt;video&gt; Element ein. Für Videos gibt es noch attribute wie <i>preload</i>, welcher das video
+            schon lädt, bevor man es wiedergibt. Mit <i>auto</i> lädt der Browser das Video mit der Seite herunter,
+            mit <i>autoplay</i> kann man das Video automatisch abspielen lassen und mit <i>loop</i> wird das Video
+            immer wiederholt.</p>
+            <p>
+                Mit dem &lt;audio&gt; kann man ein Audiofile in die Webseite einbauen, man kann dabei auch die gleichen
+                Attribute verwenden, wie schon bei den Videos.
+            </p>
+    </div>
+    <div class="Bilder">
+        <h2>Bilder</h2>
+        <p>Bilder kann man in HTML mit dem &lt;img src="link" alt="Bild"/&gt; einfügen. Src steht für Source, das
+            ist der Speicherort des Bildes (kann auch ein Link zu einem Bild sein, welches im internet ist). Das
+            Alt-Attribut ist auc hsehr wichtig, denn Bildschirmleser lesen diese Alt-Texte, welche beschreiben, was
+            im Bild zu sehen ist. Auch Suchmaschienen wenden diese Technik an und können so den Inhalt der Seite
+            bestimmen. Die grosse Arbeit an den Bilder kommt dann mit CSS ins Spiel.</p>
+
     </div>
 </main>
  
