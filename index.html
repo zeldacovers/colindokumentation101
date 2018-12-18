@@ -195,6 +195,42 @@
                 will man aber in einen Elternordner gehen, so gibt man vor den Pfad einfach noch <i>../</i> an. Damit
                 kommt man einen Ordner weiter raus, dann kann man wieder in einen anderen Ordner navigieren.</p>
     </div>
+    <div class="tabelle">
+        <h2>Tabellen</h2>
+        <p>Eine Tabelle erstellt man mit dem &lt;table&gt;-Tag. Eine neue Zeile definiert man mit einem
+            &lt;tr&gt;-Tag. Tr bedeutet Table-Row (Tabellenreihe). Eine Zelle schreibt man mit dem &lt;td&gt;-Tag.
+            Wenn man <i>td</i> mit <b><i>th</i></b> ersetzt, dann hat man eine Tabellenüberschrift. Wenn man eine
+            Zelle über mehrere Zellen strecken will, dann wählt man für die horizontale Ausrichtung <i>colspan</i>
+            und für die vertikale Ausrichtung dan <i>rowspan</i> Attribut. Man kann eine Tabelle auch in mehrere
+            Teile unterteilen, genau wie ein HTML dokument. Mit &lt;thead&gt; legt man einen Tabellenkopf an, mit
+            &lt;tbody&gt; legt man den Tabellenbody fest und mit &lt;tfoot&gt; die Fusszeile /n. Das ist zum
+            Beispiel wichtig, wenn eine Tabelle viele Zeilen besitzt, dass beim Scrollen die Kopf- und Fusszeile
+            auf dem Bildschirm fixiert werden, das sorgt für eine gute Übersicht. Mit den Attributen <i>cellpadding</i>
+            und <i>cellspacing</i> kann man den Innenraum der Zellen und den Absctand zwischen ihnen bestimmen. Man
+            kann auch den Rand einzelner Zellen färben, sowie den hintergrund. Hier ist ein Beispiel:</p>
+            <table id="tabellentest">
+                <tbody><tr id="tabelle1">
+                    <th></th>
+                    <th>4 Uhr</th>
+                    <th>3 Uhr</th>
+                    <th>16 Uhr</th>
+                    <th>12 Uhr</th>
+                </tr>
+                <tr>
+                    <th>Hallo</th>
+                    <td colspan="3">Colin</td>
+                    <td>Today</td>
+                    <td rowspan="2">Meier</td>
+                </tr>
+                <tr>
+                    <th>Dienstag</th>
+                    <td colspan="3">Zeldacovers</td>
+
+                </tr>
+
+
+            </tbody></table>
+    </div>
 </main>
  
 
