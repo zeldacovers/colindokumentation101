@@ -29,16 +29,26 @@ main {
     border-left-width: 15px;
     border-style: solid;
     padding-left: 8px;
+    padding-right: 8px;
 }
 h1{
     font-size: 20.1px;
 }
 h2{
     font-size: 17px;
+    margin-bottom: 0px;
 }
 p{
     font-size: 13px;
+    margin-top: 2px;
+    margin-bottom: 30px;
 }
 .tools{
     font-size: 13px;
+}
+ol {
+    background-color: bisque;
+}
+div {
+    background-color: #4e4e4e91;
 }
