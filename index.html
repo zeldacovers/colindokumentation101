@@ -256,6 +256,35 @@
          <p>&nbsp;&nbsp;&nbsp;font-size: 12px;</p>
          <p> }</p>
      </div>
+     <div class="selektor">
+         <h2>Selektor</h2>
+         <p>Es gibt mehrere Arten von Selektoren:</p>
+         <dl id="selektorenliste">
+            <dt>Universalselektor</dt>
+            <dd> Gilt für alle Elemente auf der Seite.</dd>
+            <dt>Typselektor</dt>
+            <dd> Gilt für ein bestimmes Element h1 h2 p div usw.</dd>
+            <dt>Klassebselektor</dt>
+            <dd>Dieser Selektor gilt für alle Elemente mit dem selben Wert für den Attribut <i>class</i>. Also zum
+                Beispiel für alle Elemente der Klasse <i>alledivs</i>, diese Klassen werden mit einem Punkt im
+                CSS-Code angesprochen, das sieht so aus: <i>.alledivs</i>.</dd>
+            <dt>ID-Selektor</dt>
+            <dd>Er bewirkt das gleiche wie der Klassenselektor, nur halt für ID's. Im CSS sieht das dann so aus: <i>#div1</i>.
+                Hier wird die ID div1 angesprochen.</dd>
+            <dt>Kindselektor</dt>
+            <dd>Dieser Selektor gilt für alle Elemente, welche dem Angegebenen Elemente unmitelbar untergeordnet
+                sind. Wenn man zum Beispiel alle Links in einem Listenelement ansprechen will, sieht es so aus: <i>li&gt;a</i>.</dd>
+            <dt>Nachkommensselektor</dt>
+            <dd>Er funktioniert gleich wie der Kindselektor, ausser dass hier noch andere Elemente vor dem
+                Ausgewälten kommen können. Für genau das gleiche beispiel sieht das dann so aus: <i>li a</i>.</dd>
+            <dt>Selektor für benachbarte Geschwister</dt>
+            <dd>Dieser Selektor gilt für ein Element, welches dem Angegebenen direkt gleichgeordnet ist. Also für
+                für das nächste Div nach einem Div sieht das so aus: <i>#div1+#div2</i>.</dd>
+            <dt>Allgemeine Geschwisterselektor</dt>
+            <dd>Gilt für alle Elemente, welche dem Angegebenen Element gleichgeordnet sind. Für alle Div's im Body
+                würde man das also so schreiben: <i>body~div</i>.</dd>
+        </dl>
+     </div>
 </main>
  
 
