@@ -337,9 +337,204 @@
             trennen will benutz man das Gegenteil nämlich border-seperate.</p>
         <h2>Formulare</h2>
             <p>Um bei bei Formularen Sendeschaltflächen zu formatieren kann man die bereits schon bekannten Elemente wie z.B. color, text-shadow, border, Background-Color, usw.
-                auswählen. </p>
+             auswählen.</p>
+
         </p>
      </div>
+     <div class="divnormal">
+
+        <h2 id="bildercss">Bilder</h2>
+
+        <p>
+            Wie bei Divs kann man bei Bildern auch die Höhe und Breite festlegen, hier würde ich die Angaben aber
+            in
+            Prozent angeben, denn dann ist das Bild schon responsiv. Bilder richtet man hier mit der Eigenschaft <i>float</i>
+            aus, dann umfliesst der Text auch gleich das Bild. Auch hier kommt wieder das Box-Modell zum Einsatz:
+            <a href="#boxmodell">hier kommst du zum Box-Modell</a>. Jedes Bild kann man auch als
+            Hintergrund eines
+            Elementes nehmen. Dann muss man einfach das Bild auf <i>background-repeat: norepeat</i> stellen, damit
+            es nicht mehrmals angezeigt wird. Damit es den ganzen Platz ausfüllt, sollte man die background-size
+            auf <i>cover</i> stellen. Mit <i>background-position</i> kann man die Position des Hintergrundbildes
+            festlegen. Man kann auch Farbverläufe erstellen, dies ist jedoch kompliziert und man muss den Verlauf
+            für jeden Browser einzeln anpassen.
+        </p>
+
+    </div>
+    <div class="divnormal">
+
+        <h2 id="boxmodell">Box-Modell</h2>
+
+        <p>
+            Mit dem Box-Modell kann man sehen, wie sich die Kombination aus Rahmen, Innen- und Aussenabstand
+            zusammensetzt. Jede Eigenschaft dieses Modelles hat 1, 2 oder 4 Werte in px angegeben. Mit einem Wert
+            hat es auf
+            jeder Seite den gleichen Abstand, mit 2 Werten spricht man die Ober- und Unterseite an und die Seiten
+            links und rechts. Hat man 4 Werte so kann man auf jeder Seite einen anderen Abstand wählen, man beginnt
+            immer mit dem Wert der Oberseite und arbeitet dann im Uhrzeigersinn. Das Box-Modell sieht so aus: </p>s
+        <p>Hier sieht
+            man auch gleich die Eigenschaften. Wie schon bei den Divs erklärt, gibt es 3 Möglichkeiten, die Werte
+            der Eigenschaften einzutragen. 1 Wert für alle Angaben, 2 Werte für Oben/Unten und Links/Rechts und 4
+            Wert für jede Seite, man beginnt oben und arbeitet sich im Uhrzeigersinn weiter. Die Angaben werden in
+            Pixel (px) angegeben.
+        </p>
+
+    </div>
+    <div class="divnormal">
+
+        <h2 id="flexbox">Flexbox</h2>
+
+        <p>
+            Flexbox bietet eine größere gestalterische Freiheit im Vergleich zum klassischen CSS-Box-Modell. Das
+            Flexible Box Layout Module – kurz Flexbox – soll es erleichtern, Elemente vertikal oder horizontal
+            neben- oder untereinander zu positionieren. Dabei reagieren die mit Flexbox ausgestatteten Elemente
+            dynamisch auf Änderungen des Viewport, behalten dabei jedoch immer ihre Relation zum jeweiligen
+            Elternelement stabil bei.
+
+            Diese Aufgabe, die insbesondere mit dem Fortschreiten responsiven Designs an Bedeutung zugenommen hat,
+            wurde bislang in aller Regel unter Verwendung der CSS-Eigenschaft float erledigt.
+        </p>
+        <p>
+            Die Flexbox Bearbeitung kann man mit <i>diplay: flex</i> aktivieren. Mit <i>flex-direction</i> kann man
+            die Ausrichtung der Elemente beeinflussen, zum Beispiel bei row wird es eine Reihe, bei column eine
+            Spalte und wenn man das -reverse daran hängt, dann wird die ganze Reihenfolge umgedreht. Mit Order kann
+            man die Reihenfolge festlegen, man gibt als Wert einfach die gewünschte Stelle an. Mit <i>align-item</i>
+            oder <i>align-content</i> oder <i>align-self</i> kann man die Anordnung und die Ausdehnung eines
+            Elementes oder des ganzen Divs definieren. Mit <i>justify-content</i> kontrolliert man den Abstand
+            zwischen den einzelnen Elementen und auch ob sie in der Mitte, rechts oder links liegen. Mit <i>flex-wrap</i>
+            legt man den Umbruch der einzelnen Flex-Elemente fest.
+        </p>
+
+    </div>
+    <div class="divnormal">
+
+        <h2 id="mediaqueries">Media Queries</h2>
+
+        <p>
+            Media Queries sind ganz wichtig, wenn man will, dass die Webseite auch auf Smartphones gut aussieht.
+            Dazu nutzt man Media Queries. Man schreibt sie immer unten im CSS-File auf. Sie werden so geschrieben
+            <i><b>@media (max-width: 768px) {}</b></i>. Dieses Beispiel besagt, dass wenn das Bild kleiner als 768
+            Pixel ist, dass dann der Inhalt der geschweiften Klammer gilt, dort schreibt man zum Beispiel hinein,
+            dass die Schrift kleiner wird. Bei dieser Seite wird die Schrift immer kleiner und die Boxen werden
+            immer grösser. Normal sollte man bei 768 Pixeln etwas ändern, das ist die Definierte breite für
+            Smartphones.
+        </p>
+
+    </div>
+    <div class="divnormal">
+
+        <h1 id="praxis">Praxis</h1>
+
+        <ul>
+            <li><a href="#wireframe">Wireframe</a></li>
+            <li><a href="#sitemap">Sitemap</a></li>
+            <li><a href="#layout">Layout in HTML</a></li>
+            <li><a href="#testprotokoll">Testprotokoll</a></li>
+            <li><a href="#validierung">Validierung</a></li>
+
+        </ul>
+
+        <p>
+            In der Praxis sollte man bevor man die Webseite erstellt ein paar Vorbereitungen treffen. Zum Beispiel
+            was sollte auf die Webseite, für wen ist sie bestimmt, wie soll sie aussehen. Danach sollte man seine
+            Webseite auch noch testen, jetzt werden alle Schritte genau erklärt.
+        </p>
+
+    </div>
+    <div class="divnormal">
+
+        <h2 id="wireframe">Wireframe</h2>
+
+        <p>Ein Wireframe hilft beim Aufbau und bei der Strukturierung der Webseite. Ein Website-Wireframe, auch
+            Seitenschema oder Bildschirmplan genannt, ist ein visueller Leitfaden, der das Grundgerüst einer
+            Website darstellt. Wireframes werden erstellt, um Elemente so anzuordnen, dass sie einen bestimmten
+            Zweck am besten erfüllen. Ein Wireframe sieht ungefähr so aus, das ist nur ein Beispiel Bild:
+        </p>
+        <img src="img/wireframe.png" alt="Bild von einem einfachen Wireframe" class="bilder_normal">
+        <p>Ein Wireframe kann etwas ganz Einfaches bis etwas ganz Komplexes sein. In diesem Beispiel hätte man noch
+            ein bisschen mehr beschriften können.</p>
+    </div>
+    <div class="divnormal">
+
+        <h2 id="sitemap">Sitemap</h2>
+
+        <p>
+            Eine Sitemap hilft bei der Struktur der Internetseite und deren Unterseiten. Sitemap wird manchmal auch
+            Seitenübersicht genannt. Dabei wird die vollständige hierarchisch strukturierte Darstellung aller
+            Einzeldokumente
+            (Webseiten) eines Webauftrittes bzw. einer Website bezeichnet (Seitenstruktur). Im Idealfall zeigt
+            die Sitemap auch die hierarchischen Verknüpfungsstrukturen der Seiten an. Hier ist auch ein Beispiel zu
+            einer Sitemap:
+        </p>
+        <img src="img/Sitemap.jpg" alt="Ein Bild einer guten Sitemap" class="bilder_normal">
+
+        <p>
+            Hier sieht man eine sehr gute Sitemap, es hat sogar Verlinkungen über die Seiten und sogar eine
+            Suchleiste, welche mit allen verbunden ist.
+        </p>
+    </div>
+    <div class="divnormal">
+
+        <h2 id="layout">Layout in HTML</h2>
+
+        <p>
+            Man sollte darauf achten, dass die Webseite auch strukturiert in HTML ist, also man unterteilt die
+            Webseite in Teilabschnitte. Man Teilt auch nur den Body auf, sonst nichts. Man erstellt einen
+            &lt;header&gt;, also ein Kopfbereich, in welchen dann das &lt;nav&gt; kommt, das ist der Tag, in
+            welchen man dann die Navigationsleiste schreibt. Jetzt kommt der &lt;content&gt;, in welchen der ganze
+            Inhalt der Webseite kommt. Diesen Bereich könnte man dann noch mit &lt;article&gt;-Elementen weiter
+            aufteilen. Ganz unten auf der Webseite ist dann noch der &lt;footer&gt;, in welchem die
+            Copyright-Informationen der Seite stehen. Auf gewissen Webseiten stehen noch mehr Informationen im
+            Footer, zum
+            Beispiel ein Link zu einem Kontaktformular und Standorte der Firma.
+        </p>
+
+    </div>
+    <div class="divnormal">
+
+        <h2 id="testprotokoll">Testprotokoll</h2>
+
+        <p>
+            Wenn man mit der Webseite fertig ist, dann sollte man diese noch testen. Dafür erstellt man am besten
+            ein Testprotokoll, auf dem oben steht, von wem getestet wurde und wann getestet wurde. Das
+            Testprotokoll an sich teilt man in vier Spalten auf, eine indem steht was getestet wird, in der zweiten
+            wie getestet wird, in der dritten was man erhofft (das erhoffte Ergebnis) und in der vierten Spalte das
+            erhaltene Ergebnis und auch der Fehler, wenn einer vorhanden ist. Man könnte noch ein extra Protokoll
+            erstellen, wo man protokolliert, wie man den Fehler behebt. Zum Testen würde ich auf jeden Fall
+            empfehlen: </p>
+        <ul>
+
+            <li>
+                Browserkompatibilität (Wird die Webseite in allen Browsern korrekt angezeigt)
+            </li>
+            <li>
+                Responsives Design korrekt (Ist die Webseite responsiv, funktioniert das auch alles und wie
+                sieht es wirklich auf einem Smartphone aus)
+            </li>
+            <li>
+                Funktionierende Links (funktionieren alle Links auf der Seite, gilt für Verlinkungen intern
+                sowie Verlinkungen zu anderen Webseiten)
+            </li>
+            <li>Wenn man JavaScript benutzt, dann muss es natürlich fehlerfrei funktionieren</li>
+
+        </ul>
+        <p>Ein letzter wirklich wichtiger Punkt ist, dass der gesamte Code valide ist, mehr dazu unter <a href="#validierung">Validierung</a>.</p>
+
+
+    </div>
+    <div class="divnormal">
+
+        <h2 id="validierung">Validierung</h2>
+
+        <p id="textvalidierung">
+            Es ist ganz wichtig, dass der gesamte Code der Webseite valide ist, das heisst <b>er hat keine Fehler</b>.
+            Das kann man testen, indem man den gesamten Code in einen Validator reinkopiert und dann auf überprüfen
+            drücken. Wenn der Code noch Fehler hat, dass muss man diese beheben und den Code nochmals einfügen, das
+            solange bis er keinen Fehler mehr hat. Das macht man auch mit dem CSS-Code und falls man auch ein
+            JavaScript hat, auch mit diesem. Hier ist noch der <a target="_blank" href="https://validator.w3.org/nu/#textarea">Validator</a>
+            von w3schools, mit dem ich auch immer arbeite.
+        </p>
+
+    </div>
 
 
 </main>
