@@ -58,3 +58,24 @@ tbody{
 .selektor{
     font-size: 13px;
 }
+@media (max-width: 768px) {
+header{
+    background-color: bisque;
+    padding:0;
+    padding-bottom:100%;
+    padding-left:0;
+    border-style: none;
+    border-color: none;
+}
+
+#inhalt{
+    font-size: 15px;
+    text-decoration-line: none;
+}
+.inhaltsverzeichnis{
+    font-size: 8px;
+}
+main {
+    margin-left: 156px;
+}
+}
